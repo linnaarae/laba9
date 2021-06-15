@@ -1,0 +1,23 @@
+@use "sass:map"
+@import "../utilities/variables"
+
+.header
+	padding: 0 50px
+
+.header
+	color: $white-text
+	background-color: $dark-bg
+
+	min-height: 80px
+
+	display: flex
+	justify-content: space-between
+	align-items: center
+
+	&__logo
+		%flex-center
+
+		font:
+			weight: map.get($font-weights, "bold")
+
+
